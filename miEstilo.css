@@ -1,0 +1,47 @@
+ button{
+    border-radius: 20%;
+    margin: 15px;
+    padding: 20px 25px;
+    background-color: rgb(3, 102, 141);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 5px solid;
+    letter-spacing:2px;
+
+}
+thead{
+   color: brown;
+}
+
+.form-control{
+    margin: 10px;
+    padding: 15px 15px;
+    background-color: rgb(5, 159, 206);
+    color: rgb(202, 248, 248);
+    font-size: 16px;
+    text-align: center;
+    border: 5px solid;
+    letter-spacing:2px;
+}
+
+#informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+ 
+thead th{
+        border: thin solid;
+        padding: 15px;
+        background-color: rgb(14, 48, 94);
+    }
+td{
+    border: thin solid;
+        padding: 15px;
+        background-color: rgb(124, 189, 189);
+}
+        
