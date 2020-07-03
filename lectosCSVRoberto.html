@@ -85,9 +85,11 @@
 				},
 				error: function (err, file) {
 					console.log("el archivo tiene que ser csv:", err, file);
+					//alert("tipo de archivo incorrecto",error, file);
 				},
 				complete: function () {
 					console.log("Archivo cargado correctamente");
+					alert("Archivo cargado correctamente");
 				}
 			});
 		});
